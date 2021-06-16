@@ -19,7 +19,7 @@ const Index = () => {
     e.preventDefault();
     
     if (name) {
-      const newItem ={ id:new Date().getTime.toString(),name}
+       const newItem ={ id:new Date().getTime.toString(),name}
       dispatch({type:'ADD_ITEM',payload:newItem})
       // setShowModal(true);
       // setPeople([...people, { id: new Date().getTime().toString(), name }]);
